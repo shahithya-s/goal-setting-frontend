@@ -9,7 +9,7 @@ import Register from './pages/Register'
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/app">
         <div className='container'>
           <Header />
           <Routes>
